@@ -4,21 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CAS Point System</title>
+    <style>
+        #points {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <p id="points">Points: 0</p>
     <h1>Header</h1>
     <p>Test?</p>    
     <button class="button button1" id="button_true">True</button>
     <button class="button button1" id="button_false">False</button>
     <p id="response"></p>
 
-    <script>
-        document.getElementById('button_true').addEventListener('click', function() {
-            document.getElementById('response').innerText = 'Test1';
-        });
-        document.getElementById('button_false').addEventListener('click', function() {
-            document.getElementById('response').innerText = 'Test2';
-        });
-    </script>
+    <script src="dashboard_code.js"></script>
 </body>
 </html> 
