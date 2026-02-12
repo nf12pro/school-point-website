@@ -1,2 +1,2 @@
 # school-point-website
-A simple school website that allows students to gain points and exchange points for rewards
+A simple school website for Casablanca American School that allows students to gain points for good behaviour and exchange points for rewards.
