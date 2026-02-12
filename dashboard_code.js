@@ -11,3 +11,9 @@ document.getElementById('button_false').addEventListener('click', function() {
     document.getElementById('points').innerText = 'Points: ' + points;
     document.getElementById('response').innerText = 'Wrong! -5 points. Total: ' + points;
 });
+
+document.getElementById('button_reset').addEventListener('click', function() {
+    points = 0; // Reset points
+    document.getElementById('points').innerText = 'Points: ' + points;
+    document.getElementById('response').innerText = 'Points reset to 0.';
+});
