@@ -6,7 +6,19 @@
     <title>CAS Point System</title>
 </head>
 <body>
-    <h1>BASIC</h1>
-    <p>IDK</p>
+    <h1>Header</h1>
+    <p>Test?</p>    
+    <button class="button button1" id="button_true">True</button>
+    <button class="button button1" id="button_false">False</button>
+    <p id="response"></p>
+
+    <script>
+        document.getElementById('button_true').addEventListener('click', function() {
+            document.getElementById('response').innerText = 'Test1';
+        });
+        document.getElementById('button_false').addEventListener('click', function() {
+            document.getElementById('response').innerText = 'Test2';
+        });
+    </script>
 </body>
-</html>
+</html> 
